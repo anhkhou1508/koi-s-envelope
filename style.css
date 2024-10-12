@@ -1,0 +1,49 @@
+/* Apply universal styles to all elements */
+* {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-family: sans-serif; /* Set the font family for all text */
+}
+
+/* Styles for the body of the document */
+body {
+  width: 100%; /* Set body width to 100% of the viewport */
+  min-height: 100vh; /* Ensure body is at least 100% of the viewport height */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background-color: #ffe5e5; /* Set a light pink background color */
+}
+
+/* Container styles */
+.container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  text-align: center; /* Center text alignment */
+  gap: 20px; /* Space between child elements */
+  max-width: 700px; /* Set a maximum width for the container */
+  margin: 20px; /* Add margin around the container */
+}
+
+/* Styles for the tenor GIF embed section */
+.container .tenor-gif-embed {
+  max-width: 500px; /* Limit the maximum width of the GIF embed */
+}
+
+/* Button container styles */
+.container .btn {
+  display: flex; /* Use flexbox for layout */
+  gap: 25px; /* Space between button elements */
+}
+
+/* Individual button styles */
+.btn a {
+  background-color: #dda29a; /* Set background color for buttons */
+  color: #111; /* Set text color for buttons */
+  padding: 10px 25px; /* Add padding inside the buttons */
+  border-radius: 8px; /* Round the corners of the buttons */
+  box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3); /* Add shadow to create a 3D effect */
+  text-align: center;
+  margin-left: 45px; 
+}
