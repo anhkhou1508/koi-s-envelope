@@ -22,19 +22,19 @@ body {
   flex-direction: column; /* Arrange children in a column */
   text-align: center; /* Center text alignment */
   gap: 20px; /* Space between child elements */
-  max-width: 700px; /* Set a maximum width for the container */
+  max-width: 600px; /* Set a maximum width for the container */
   margin: 20px; /* Add margin around the container */
 }
 
 /* Styles for the tenor GIF embed section */
 .container .tenor-gif-embed {
-  max-width: 500px; /* Limit the maximum width of the GIF embed */
+  max-width: 600px; /* Limit the maximum width of the GIF embed */
 }
 
 /* Button container styles */
 .container .btn {
   display: flex; /* Use flexbox for layout */
-  gap: 25px; /* Space between button elements */
+  gap: 10px; /* Space between button elements */
 }
 
 /* Individual button styles */
@@ -45,5 +45,6 @@ body {
   border-radius: 8px; /* Round the corners of the buttons */
   box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3); /* Add shadow to create a 3D effect */
   text-align: center;
-  margin-left: 45px; 
+  margin-left: 150px; 
+  
 }
