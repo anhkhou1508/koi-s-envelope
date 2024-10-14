@@ -26,13 +26,15 @@
             <div class="heart"></div>
         </div>
     </div>
-    <div class="btn">
+    <div class="btn hidden-btn"> <!-- Add 'hidden-btn' class -->
       <a href="win2.html">Tiếp tục</a>
     </div>
     <script>
         const envelope = document.querySelector('.envelope-wrapper');
+        const nextButton = document.querySelector('.btn');
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
+            nextButton.classList.add('show-btn'); // Show the button when the envelope is opened
         });
     </script>
 </body>

@@ -17,6 +17,18 @@ body{
   align-items: center;
   justify-content: center;
 }
+/* Hide the button initially */
+.hidden-btn {
+  display: none;
+}
+
+/* Show the button after the envelope is opened */
+.show-btn {
+  display: block;
+}
+
+/* Other CSS as in your original code */
+
 .container {
   height: 100vh;
   display: grid;
